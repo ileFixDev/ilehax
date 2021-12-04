@@ -1,5 +1,5 @@
 # ilehax
-A tool to store all wifi passwords working on all Windows PC
+A tool to store all wifi passwords working on all Windows Devices.
 
 # How to use
 It is advisable to save the tool on a stick and execute it by double-clicking. The wifi passwords are stored in the same folder where the `ileHax.bat` file is located. All passwords are stored under `wifi-passwords/<computer-name>/`.
